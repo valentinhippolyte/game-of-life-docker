@@ -1,21 +1,16 @@
 # Game of Life
 
-## Description
+Valentin Hippolyte
+Tony Pâques
 
-**Conway's Game of Life web version!**  
-It is turing complete and can simulate a universal constructor.  
-I hope this repository is a good lab for game of life.  
-And I also hope this repository is a [good starting point](https://github.com/TroyTae/game-of-life/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) for first-time contributors.
+## Comment lancer le projet
 
-## Demo
 
-![Demo](./src/static/favicon.gif)  
-You can see every pattern in [here](https://troytae.github.io/game-of-life/)
+```docker build -t game-of-life```
+```docker run game-of-life```
 
-## Contributors
+** But de l'application
 
-<a href="https://github.com/TroyTae/game-of-life/graphs/contributors">
-  <img src="https://contributors-img.firebaseapp.com/image?repo=TroyTae/game-of-life" />
-</a>
+Game of life est un jeu qui a pour but de tester l'evolution d'un environement.
 
-Made with [contributors-img](https://contributors-img.firebaseapp.com)
+Rêgles du jeu : https://fr.wikipedia.org/wiki/Jeu_de_la_vie
